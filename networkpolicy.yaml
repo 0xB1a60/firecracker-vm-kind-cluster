@@ -3,7 +3,7 @@ kind: NetworkPolicy
 metadata:
   name: deny-egress
 spec:
-  podSelector: {}  # applies to all pods in kube-system
+  podSelector: {}
   policyTypes:
     - Egress
   egress: []  # deny all egress
